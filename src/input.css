@@ -46,5 +46,31 @@
     .Hire-btn{
         @apply  bg-red-600 px-10 py-4 rounded ml-10 text-xl hover:bg-red-800
     }
-    
+    .details{
+        @apply h-auto w-full bg-[#3e3e3ecc] md:flex text-white block relative
+    }
+    .photo-intro{
+        @apply md:w-[40%] md:h-[100%] w-[90%] mx-auto
+    }
+    .introduction{
+        @apply md:w-[60%] md:h-[100%] md:mt-10 
+    }
+    .pic-intro{
+        @apply md:w-[90%] md:pr-5 md:py-5 md:ml-10 object-cover md:rounded
+    }
+    .title-intro{
+        @apply md:mx-5 md:my-10 text-4xl absolute -top-28 ml-5
+    }
+    .details-intro{
+        @apply md:mx-5 md:my-3 mx-5 mt-2 
+    }
+    .introBtn{
+        @apply md:flex md:mt-20 mt-5
+    }
+    .hireBtn{
+        @apply bg-red-600 mx-5 px-5 py-2 rounded md:hover:bg-red-700
+    }
+    .dCV{
+        @apply bg-red-600 px-5 py-2 rounded md:hover:bg-red-700
+    }
 }
