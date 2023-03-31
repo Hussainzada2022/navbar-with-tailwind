@@ -73,4 +73,25 @@
     .dCV{
         @apply bg-red-600 px-5 py-2 rounded md:hover:bg-red-700
     }
+    .services{
+        @apply md:w-full h-auto md:px-10 md:py-5 text-white md:pt-0 md:mt-0 py-4 px-3 
+    }
+    .service-details{
+        @apply md:w-full md:px-10 md:py-5
+    }
+    .ser-title{
+        @apply md:text-4xl md:pt-3 md:ml-10 pb-5 text-2xl 
+    }
+    .ser-details{
+        @apply md:py-3 md:px-10
+    }
+    .ser-item{
+        @apply w-full flex-row flex-wrap  md:px-5 h-auto py-4 md:flex 
+    }
+    .item{
+        @apply md:w-[45%] h-auto  bg-slate-100 md:mx-5 md:my-8 w-[60%] mx-auto rounded  my-5 py-5 px-3 text-[#2e2e2ecc]
+    }
+    .ser-icon{
+        @apply p-5 w-[100px] h-[100] ml-5 text-2xl rounded-[50%] bg-red-600 text-white cursor-pointer shadow-neutral-900 hover:bg-white hover:text-red-600
+    }
 }
