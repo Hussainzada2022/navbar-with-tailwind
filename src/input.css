@@ -36,4 +36,15 @@
     .close-btn{
         @apply md:hidden ml-10 cursor-pointer hidden xl:hidden
     }
+    /* background */
+    .main-bg{
+        @apply md:flex md:relative bg-cover
+    }
+    .content{
+        @apply h-52  absolute bottom-[50%] left-10 text-white
+    }
+    .Hire-btn{
+        @apply  bg-red-600 px-10 py-4 rounded ml-10 text-xl hover:bg-red-800
+    }
+    
 }
