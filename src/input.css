@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .body{
+        @apply w-full bg-[#101010cc] h-[100vh]
+    }
+    .header{
+        @apply w-full top-0 fixed py-5 bg-[#3e3e3e] flex text-white z-50
+    }
+    .nav{
+        @apply w-[80%] mx-10 hidden md:block 
+    }
+    .open{
+        @apply w-full flex 
+    }
+    .menu-nav{
+        @apply w-[100%] md:flex gap-2  
+    }
+    .li-nav{
+        @apply mx-5 my-5 md:my-0 xl:my-0
+    }
+    .li-active{
+        @apply text-red-600
+    }
+    .logo{
+        @apply float-right mr-5 ml-[70%] md:ml-auto
+    }
+    .logoText{
+        @apply text-xl cursor-pointer
+    }
+}
