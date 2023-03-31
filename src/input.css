@@ -61,6 +61,17 @@
     .photo-intro{
         @apply md:w-[40%] md:h-[100%] w-[90%] mx-auto
     }
+    /* social media links*/
+    .social{
+        @apply xl:w-20 md:h-40 absolute xl:right-20 xl:top-56 xl:text-2xl text-xs text-white flex bottom-1 right-5
+    }
+    .ul-list-social{
+        @apply flex gap-8 xl:block
+    }
+    .social-li{
+        @apply my-5 cursor-pointer hover:text-red-600
+    }
+    /* Introduction part*/
     .introduction{
         @apply md:w-[60%] md:h-[100%] md:mt-10 
     }
