@@ -30,4 +30,10 @@
     .logoText{
         @apply text-xl cursor-pointer
     }
+    .open-btn{
+        @apply ml-10 cursor-pointer md:hidden xl:hidden
+    }
+    .close-btn{
+        @apply md:hidden ml-10 cursor-pointer hidden xl:hidden
+    }
 }
