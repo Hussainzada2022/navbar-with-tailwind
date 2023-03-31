@@ -94,4 +94,23 @@
     .ser-icon{
         @apply p-5 w-[100px] h-[100] ml-5 text-2xl rounded-[50%] bg-red-600 text-white cursor-pointer shadow-neutral-900 hover:bg-white hover:text-red-600
     }
+    .portfolio{
+        @apply w-[90%] h-auto py-10 mx-10  text-white
+    }
+    .pro-title{
+        @apply md:text-4xl md:pt-3 md:ml-10 pb-5 text-2xl
+    }
+    .details-pro{
+        @apply md:py-3 md:px-10
+    }
+
+    .contact{
+        @apply w-full h-auto px-10 py-5 flex flex-wrap
+    }
+    .contact-title{
+        @apply md:text-4xl md:pt-3 md:ml-10 pb-5 text-2xl text-white
+    }
+    .form-group{
+        @apply w-[40%] mt-5 m-2 h-12 p-5 placeholder:text-gray-200 outline-none bg-transparent border-gray-100 border-[1px] rounded
+    }
 }
